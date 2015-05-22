@@ -1,0 +1,1 @@
+exports.FLOATING_POINT_ERROR = 0.0001;
