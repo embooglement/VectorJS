@@ -275,7 +275,7 @@
 					return row.multiply(m2);
 				});
 			} else if (m2 instanceof Number) {
-				return this,multiply(m2.valueOf());	
+				return this.multiply(m2.valueOf());
 			} else if (m2 instanceof Vector2) {
 				var x = this.get(0, 0) * m2.x + this.get(1, 0) * m2.y + this.get(2, 0);
 				var y = this.get(0, 1) * m2.x + this.get(1, 1) * m2.y + this.get(2, 1);
